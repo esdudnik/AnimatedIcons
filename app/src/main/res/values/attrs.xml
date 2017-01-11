@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AnimatedIconView">
+        <!-- Width of paint to fill -->
+        <attr name="fillMarkWidth" format="dimension" />
+        <!-- Color of the fill elements -->
+        <attr name="fillMarkColor" format="color" />
+        <!-- Flag indicated if animation need to be performed -->
+        <attr name="animated" format="boolean" />
+        <!-- Time of animation-->
+        <attr name="animationTime" format="integer" />
+    </declare-styleable>
+
+</resources>

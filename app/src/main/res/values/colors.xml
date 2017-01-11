@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#ff31343c</color>
+    <color name="background_secondary">#ff3f434d</color>
+
+    <!-- Animated icons color -->
+    <color name="accepted_icon_color">#8cca1c</color>
+    <color name="error_icon_color">#000000</color>
+</resources>

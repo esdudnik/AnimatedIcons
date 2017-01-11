@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.esdudnik.animatedicons.ui.activity.MainActivity"
+    android:background="@color/background">
+
+    <com.android.esdudnik.animatedicons.ui.view.AnimatedCircleCheckMarkView
+        android:id="@+id/animatedCircleCheckMarkView"
+        android:layout_width="@dimen/animated_circle_size"
+        android:layout_height="@dimen/animated_circle_size"
+        android:layout_margin="16dp"
+        app:animated="true"
+        app:fillMarkWidth="@dimen/animated_color_stroke_width"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.android.esdudnik.animatedicons.ui.view.AnimatedCircleExplanationMarkView
+        android:id="@+id/animatedCircleExplanationMarkView"
+        android:layout_width="@dimen/animated_circle_size"
+        android:layout_height="@dimen/animated_circle_size"
+        android:layout_margin="16dp"
+        app:animated="true"
+        app:fillMarkWidth="@dimen/animated_color_stroke_width"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_animation"
+        android:layout_marginBottom="@dimen/button_bottom_margin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
