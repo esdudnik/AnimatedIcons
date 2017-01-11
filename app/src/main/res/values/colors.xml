@@ -7,6 +7,6 @@
     <color name="background_secondary">#ff3f434d</color>
 
     <!-- Animated icons color -->
-    <color name="accepted_icon_color">#8cca1c</color>
-    <color name="error_icon_color">#000000</color>
+    <color name="check_mark_icon_color">#8cca1c</color>
+    <color name="explanation_mark_icon_color">#FFFFFF</color>
 </resources>

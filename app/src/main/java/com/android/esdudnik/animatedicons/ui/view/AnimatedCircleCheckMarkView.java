@@ -32,8 +32,6 @@ public class AnimatedCircleCheckMarkView extends RelativeLayout {
     }
 
     private void init(Context context, AttributeSet attrs) {
-        setLayerType(View.LAYER_TYPE_SOFTWARE, null);
-
         inflate(context, R.layout.animated_circle_check_mark, this);
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.AnimatedIconView);
         boolean forceAnimate = a.getBoolean(R.styleable.AnimatedIconView_animated, false);

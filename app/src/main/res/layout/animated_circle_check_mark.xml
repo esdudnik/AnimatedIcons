@@ -8,7 +8,7 @@
         android:id="@+id/animated_circle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        trade360:fillMarkColor="@color/accepted_icon_color"
+        trade360:fillMarkColor="@color/check_mark_icon_color"
         trade360:animationTime="@integer/animation_time"/>
 
     <com.android.esdudnik.animatedicons.ui.view.AnimatedCheckMarkView
@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        trade360:fillMarkColor="@color/accepted_icon_color"
+        trade360:fillMarkColor="@color/check_mark_icon_color"
         trade360:animationTime="@integer/animation_time"/>
 
 </RelativeLayout>
